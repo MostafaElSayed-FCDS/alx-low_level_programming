@@ -1,5 +1,3 @@
-0-print_name.c
-
 #include "function_pointers.h"
 #include <stdio.h>
 /**
