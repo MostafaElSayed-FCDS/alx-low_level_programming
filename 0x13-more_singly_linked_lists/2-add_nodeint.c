@@ -1,9 +1,9 @@
-i#include "lists.h"
+#include "lists.h"
 
 /**
- * add_nodeint - adds a new node to the top of linked list
- * @head: pointer to the first node
- * @n: new value
+ * add_nodeint - adds a new node to start
+ * @head: first node in the list
+ * @n: value to insert
  *
  * Return: pointer to the new node or NULL
  */
@@ -11,7 +11,7 @@ listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new_node = malloc(sizeof(listint_t));
 
-	if (!new)
+	if (!new_node)
 		return (NULL);
 
 	new_node->n = n;
