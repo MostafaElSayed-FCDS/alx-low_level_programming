@@ -5,8 +5,9 @@
  * or creates a new file with the specified content if it
  * does not already exist
  *
- * @filename: the name of the file
- * @text_content:  is the NULL terminated string to add at the end of the file
+ * @filename: A pointer to the name of the file to append to, or create
+ * @text_content: A pointer to a NULL-terminated string containing
+ * the text content to append to the file
  *
  * Return: 1 on success, -1 on failure.
  */
